@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import MainTitle from '../Components/MainTitle';
+
 export default class LaunchScreen extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Hola</Text>
+                <MainTitle title="Star Wars"></MainTitle>
             </View>
         );
     }
