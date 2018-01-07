@@ -1,5 +1,5 @@
 const type = {
-    base: 'Avenir-Book'
+    base: 'Roboto'
 };
 
 const size = {
